@@ -1,0 +1,21 @@
+/*
+JULIET ZIPPY WANGUI NJERU.
+CT100/G/26140/25
+UNITS DONE THIS SEMESTER.
+*/
+
+#include<stdio.h>//pre processor directive scanf
+
+//main function
+
+int main(){
+    printf("SPH 2107 ANALOGUE ELECTRONICS\n");
+    printf("SPH 2101 INTRODUCTION TO PROGRAMMING AND ALGORITHMS\n");
+    printf("SPI 2102 COPMPUTER SYSTEMS AND ORGANISATION\n");
+    printf("SPI 2103 INTRODUCTION TO COMPUTER APPLICATION\n");
+    printf("SPI 2120 ESSENTIALS OF ACCOUNTING\n");
+    printf("SPM 2104 MATHEMATICS FOR SCIENCE\n");
+    printf("UCU 2105 FUNDAMENTALS OF ICT\n");
+    printf("UCU 2106 COMMUNICATION SKILLS\n");
+    return 0;
+}
