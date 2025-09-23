@@ -17,6 +17,8 @@ int main(){
     printf("SPM 2104 MATHEMATICS FOR SCIENCE\n");
     printf("UCU 2105 FUNDAMENTALS OF ICT\n");
     printf("UCU 2106 COMMUNICATION SKILLS\n");
+
     return 0;
 
 }
+
