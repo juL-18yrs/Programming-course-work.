@@ -1,0 +1,23 @@
+/*
+JULIET ZIPPY WANGUI NJERU.
+CT100/G/26140/25
+VOLUME OF A CYLINDER
+*/
+
+# include <stdio.h>
+# define PI 3.1416 // define pi value
+
+int main(){
+  float r=7,h=14,volume,surface area;
+
+  //Calculate volume and surface area
+  volume=PI*7*7*14;
+  surface area=2*PI*7*7+2*PI*7*14;
+
+  //Display results
+  printf("For radius = %.2f and height = %.2f \n",r,h);
+  printf("Volume of cylinder = %.2f \n",volume);
+  printf("Surface area of cylinder = %.2f \n",surface area);
+
+  return 0
+}
