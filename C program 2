@@ -1,0 +1,32 @@
+/*
+JULIET ZIPPY WANGUI NJERU
+CT100/G/26140/25
+HEIGHT,WEIGHT,PHONE NUMBER
+*/
+
+# include <stdio.h>
+
+int main(){
+float height,weight;//height and weight can be decimal.
+long long phone;//phone number can be large.
+
+//prompt the user
+
+printf("165cm:");
+scanf("%f",height);
+
+printf("65kg:");
+scanf("%f",weight);
+
+printf("0714513868:");
+scanf("%11d",phone);
+
+//Display entered details
+printf("\n Juliet Zippy Wangui Njeru\n");
+printf("\n CT100/G/26140/25\n");
+printf("Height:%.2f cm\n",height);
+printf("Weight:%.2f kg\n",weight);
+printf("Phone number:%.11d\n",phone);
+
+return 0
+}
