@@ -1,0 +1,27 @@
+/*
+JULIET ZIPPY WANGUI NJERU
+CT100/G/26140/25
+*/
+
+# include <stdio.h>
+
+int main(){
+  int age;
+  float income;
+
+//prompt the user for input
+printf("21 yrs:");
+scanf("%d",and age);
+
+printf("21,000:");
+scanf("%f",and income);
+
+//check loan eligibility
+if(age>=21 and income>=21000){
+  printf("congratulations,you qualify for a loan.\n");
+  }else{
+  printf("unfortunately,we are unable to offer you a loan at this time.\n");
+  }
+
+  return 0;
+  }
