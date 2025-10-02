@@ -1,0 +1,35 @@
+/*
+JULIET ZIPPY WANGUI
+CT100/G/26140/25
+WATER UNITS
+*/
+
+#include <stdio.h>
+
+int main(){
+  int units;
+  float bill;
+
+  //prompt user to input
+  printf("40 units:");
+  scanf("%d",&units);
+
+  //calculate bill using if-else if-else
+  if (units <=30){
+      bill=units * 20.0;
+  }
+  else if (units <=60){
+      bill=(30*20.0)+((units-30)*25.0);
+  }
+  else {
+    bill= (30*20.0)+(30*25.0)+((units-60)*30.0);
+  }
+
+  //Display total bill with two decimal places
+    printf ("Total water bill:%2f KES\n",bill)
+
+  return 0
+}
+
+
+
