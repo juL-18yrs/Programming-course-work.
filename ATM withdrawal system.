@@ -1,0 +1,44 @@
+/*
+JULIET ZIPPY WANGUI NJERU
+CT100/G/26140/25
+ATM WITHDRAWAL SYSTEM
+*/
+
+#include<stdio.h>
+
+int main(){
+  float balance,withdraw;
+
+  //Initialize account balance
+  printf("Enter your account balance:5000");
+  scanf("%f",&balance);
+
+  //continue withdrawals while balance is greater than 0
+  While (balance>0){
+    printf("\nEnter amount to withdraw:3000");
+    scanf("%f",&withdraw);
+
+    balance-=withdraw;//Deduct withdrawal amount
+
+    if(balance>0){
+      printf("Withdrawal successfull.\n");
+      printf("Remaining balance:2000.00%.2f\n",balance);
+    }else if (balance==0){
+      printf("Your balance is now zero.\n");    
+    }else{
+      printf("Insufficient funds!Your account is overdrawn by %2f\n",-balance0);
+    }
+  }
+
+      printf("\nTransaction ended.Account balance:%2f\n",balance);
+
+  return 0
+  }
+
+
+
+
+
+
+  
+  
